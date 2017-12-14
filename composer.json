@@ -1,0 +1,26 @@
+{
+    "name": "trilobit-gmbh/contao-dcfolder",
+    "type": "contao-module",
+    "description": "Contao 4 dc_folder extension",
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "trilobit GmbH",
+            "homepage": "https://github.com/trilobit-gmbh"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "contao/core-bundle": "~4.3"
+    },
+    "autoload": {
+        "classmap": ["drivers"]
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/trilobit_dcfolder"
+            }
+        }
+    }
+}
