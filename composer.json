@@ -2,7 +2,7 @@
     "name": "trilobit-gmbh/contao-dcfolder",
     "type": "contao-module",
     "description": "Contao 4 dc_folder extension",
-    "license": "LGPL-3.0+",
+    "license": "LGPL-3.0-or-later",
     "authors": [
         {
             "name": "trilobit GmbH",
